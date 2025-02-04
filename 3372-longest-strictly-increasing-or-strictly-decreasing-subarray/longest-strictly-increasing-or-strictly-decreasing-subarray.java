@@ -1,8 +1,8 @@
 class Solution {
     public int longestMonotonicSubarray(int[] nums) {
-       if(nums.length ==1){
-        return 1;
-       }
+    //    if(nums.length ==1){
+    //     return 1;
+    //    }
        int increlen =1;
        int decrelen =1;
        int maxlen =1;
