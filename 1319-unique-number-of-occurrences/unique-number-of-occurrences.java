@@ -1,6 +1,8 @@
 class Solution {
     public boolean uniqueOccurrences(int[] arr) {
-        
+        if(arr.length == 0){
+            return false;
+        }
         //creating Hashmap , Map is a parent class
         Map<Integer,Integer> map = new HashMap<>();  
         for(int num : arr){
