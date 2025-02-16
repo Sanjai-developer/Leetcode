@@ -3,6 +3,9 @@ class Solution {
         if(word1.length() != word2.length()){
            return false;
         }
+        if(word1.equals(word2)){
+            return true;
+        }
         Map<Character,Integer> freq1 = new HashMap<>();
         Map<Character,Integer> freq2 = new HashMap<>();
 
